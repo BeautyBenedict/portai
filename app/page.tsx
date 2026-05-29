@@ -503,7 +503,7 @@ export default function Page() {
                         <button className="x-btn" onClick={handleShareX}>𝕏 Share on X</button>
                         <ScoreCard analysis={state.analysis} address={address ?? ""} />
                       </div>
-                      <div className="share-prev">"{state.analysis.shareText}"</div>
+                      <div className="share-prev">&ldquo;{state.analysis.shareText}&rdquo;</div>
                       <button className="re-btn" onClick={handleAnalyze}>↺ Re-scan</button>
                     </div>
                   </div>
